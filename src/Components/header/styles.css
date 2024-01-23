@@ -1,0 +1,37 @@
+
+.header {
+    padding: 30px;
+}
+
+
+
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_container a:hover {
+    font-weight: 800;
+    transition: 500ms ease;
+}
+
+.nav_list {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.nav_list a:hover {
+    font-weight: 800;
+    transition: 001s ease-in;
+}
+
+a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+
+li {
+    list-style-type: none;
+}
