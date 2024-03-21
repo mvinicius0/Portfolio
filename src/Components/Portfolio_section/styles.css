@@ -1,0 +1,128 @@
+.title_2 {
+    margin-top: 180px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.tt {
+   text-align: center;
+   display: block;
+}
+
+.work_filter {
+    align-items: center;
+    -webkit-column-gap: 0.75rem;
+    column-gap: 0.75rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: var(--mb-2);
+}
+
+.active-work {
+    background-color: #343434;
+    color: white;
+    margin-top: 20px;
+}
+
+.work_item {
+    border-radius: 0.5rem;
+    color: white;
+    cursor: pointer;
+    font-weight: 800;
+    padding: 0.50rem 1rem;
+    text-transform: capitalize;
+}
+
+.work_container {
+    gap: 3rem;
+    grid-template-columns: repeat(2, -webkit-max-content);
+    grid-template-columns: repeat(2, max-content);
+    justify-content: center;
+}
+
+.grid {
+    grid-gap: 1.5rem;
+    display: grid;
+    gap: 1.5rem;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 968px;
+}
+
+.work_card {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 1rem;
+    padding: 1.25rem;
+    margin-top: 2rem;
+}
+
+.work_image {
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    width: 295px;
+}
+
+.demo_title {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 0.5rem;
+    font-size: 13px;
+}
+.work_button-icon {
+    font-size: 1rem;
+    transition: .4s;
+}
+
+.bx {
+    font-family: boxicons !important;
+    font-weight: 400;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 1;
+    text-rendering: auto;
+    display: inline-block;
+    text-transform: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.img1 {
+    width: 17rem;
+}
+
+.load {
+    width: 15rem;
+    height: 10rem;
+    padding-left: 2rem;
+    
+}
+
+@media screen and (max-width: 1117px) {
+    .work_container {
+        grid-template-columns: 1fr;
+        width: 17rem;
+        
+    }
+}
+
+@media screen and (max-width: 1117px) {
+    .work_image {
+        grid-template-columns: 1fr;
+        width: 17rem;
+        
+    }
+}
+
+@media screen and (max-width: 1117px) {
+    .load {
+        width: 15rem;
+        height: 10rem;
+    }
+}
+

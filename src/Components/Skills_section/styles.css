@@ -1,0 +1,88 @@
+
+.section_title {
+    margin-top: 180px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.section_subtitle {
+    display: block;
+    text-align: center;
+}
+
+.skills_container {
+    -webkit-column-gap: 3rem;
+    column-gap: 3rem;
+    grid-template-columns: repeat(3, 350px);
+    justify-content: center;
+    margin: 40px;
+}
+
+.grid {
+    grid-gap: 1.5rem;
+    display: grid;
+    gap: 1.5rem;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 968px;
+}
+
+.skills_content {
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-radius: 1.25rem;
+    padding: 2rem 4rem;  
+}
+
+
+.skills_title {
+    text-align: center;
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.skills_box {
+    -webkit-column-gap: 2.5rem;
+    column-gap: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.skills_group {
+    grid-row-gap: 1rem;
+    align-items: flex-start;
+    display: grid;
+    row-gap: 1rem;
+}
+
+.skills_data {
+    -webkit-column-gap: 0.5rem;
+    column-gap: 0.5rem;
+    display: flex;
+}
+
+
+
+.skills .bx-badge-check {
+    font-size: 1rem;
+}
+
+.skill_name {
+    font-size: 1rem;
+    margin: 2px;
+}
+
+.skill_level {
+    font-size: 0.8rem;
+}
+
+@media screen and (max-width: 1117px) {
+    .skills_container {
+        grid-template-columns: 1fr;
+        width: 110px;
+    }
+}

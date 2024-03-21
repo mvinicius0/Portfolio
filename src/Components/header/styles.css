@@ -1,9 +1,17 @@
 
-.header {
-    padding: 30px;
+.header-1 {
+    padding: 25px;
+    background-color: #ebe6e6;
+    left: 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    
 }
 
-
+.scroll{
+    box-shadow: 0 -1px 4px rgba(0,0,0,.15);
+}
 
 .nav_container{
     display: flex;
@@ -12,7 +20,7 @@
 
 .nav_container a:hover {
     font-weight: 800;
-    transition: 500ms ease;
+    transition: 0001ms ease;
 }
 
 .nav_list {
@@ -35,3 +43,26 @@ a {
 li {
     list-style-type: none;
 }
+
+.nav_close, .nav_icon, .nav_toggle {
+    display: none;
+}
+
+.nav_close, .nav_icon, .nav_toggle {
+    display: none;
+}
+
+.nav_logo, .nav_toggle {
+    color: #343434;
+    font-weight: 500;
+}
+
+
+@media (max-width: 768px) {
+    .logo {
+        display: none;
+    }
+}
+
+
+
