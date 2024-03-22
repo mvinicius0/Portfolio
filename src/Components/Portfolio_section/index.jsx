@@ -20,14 +20,14 @@ export class PortfolioSection extends Component {
                         <div className='work_card'>
                             <img className='work_image' src={pokedex} alt="" />
                             <h3>Pokedex</h3>
-                            <a className='demo_title' href="#">Demo
+                            <a className='demo_title' target='_blank' href="https://pokedexmarcos.netlify.app/">Demo
                             <i> <GoArrowRight /></i>
                             </a>
                         </div>
                         <div className='work_card'>
                             <img className='work_image img1' src={tarefas} alt="" />
                             <h3>to-do list</h3>
-                            <a className='demo_title' href="#">Demo
+                            <a className='demo_title' target='_blank' href="https://todolistmarcos.netlify.app/">Demo
                             <i> <GoArrowRight /></i>
                             </a>
                         </div>

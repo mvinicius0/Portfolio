@@ -38,7 +38,7 @@ export class AboutSection extends Component {
                             </div>
                         </div>
                         <p className='text'>I am currently studying to specialize in web development with React.js, with a lot of experience in personal projects.</p>
-                        <a className='cv' href='../../utils/CV.pdf' download='CV.pdf' >
+                        <a className='cv' href='../../utils/CV.pdf' src='../../utils/CV.pdf' download={cv} >
                             DOWNLOAD CV <LiaFileAlt size={20}/>
                             
                         </a>
